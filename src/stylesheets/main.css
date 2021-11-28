@@ -1,2 +1,25 @@
 /* Your styles go here */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+a:link, a:visited {
+   padding: 14px 25px;
+   text-align: center; 
+   text-decoration: none;
+   display: inline-block;
+ }
+ 
+ a:hover, a:active {
+   background-color: #6333FF;
+ }
+
+ body{
+   display: flex;
+   flex-direction: column;
+}
+.jumbotron {
+   background-position: 0 -500px;
+   background: url(https://editorial.uefa.com/resources/026d-1322fdaf7f6f-8fa6c9c0dc71-1000/ucl.jpg);
+   background-size: cover;
+   
+}
